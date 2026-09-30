@@ -1,0 +1,682 @@
+/* =========================================================
+   DOCUMENT & FORM ASSISTANT
+   MODERN WHITE + TEAL DESIGN
+   ========================================================= */
+
+
+/* =========================================================
+   APP
+   ========================================================= */
+
+.stApp {
+    background:
+        radial-gradient(
+            circle at 95% 5%,
+            rgba(20, 184, 166, 0.12),
+            transparent 25%
+        ),
+        radial-gradient(
+            circle at 5% 95%,
+            rgba(45, 212, 191, 0.10),
+            transparent 25%
+        ),
+        #f7fbfa !important;
+
+    color: #172033 !important;
+}
+
+
+/* =========================================================
+   MAIN CONTAINER
+   ========================================================= */
+
+.main .block-container {
+    max-width: 980px !important;
+
+    padding-top: 2rem !important;
+    padding-bottom: 6rem !important;
+
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+.stApp p,
+.stApp li,
+.stApp label {
+    color: #334155;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+.app-header {
+    text-align: center;
+
+    padding: 0.5rem 0 2rem 0;
+}
+
+
+.app-logo {
+    width: 64px;
+    height: 64px;
+
+    margin: 0 auto 1rem auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 18px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #0f9f98,
+            #19c7b8
+        );
+
+    font-size: 2rem;
+
+    box-shadow:
+        0 10px 25px rgba(15, 159, 152, 0.20);
+}
+
+
+.app-title {
+    font-size: 2.5rem;
+
+    line-height: 1.15;
+
+    font-weight: 800;
+
+    letter-spacing: -1.5px;
+
+    color: #172033 !important;
+}
+
+
+.app-title-accent {
+    color: #0f9f98 !important;
+}
+
+
+.app-subtitle {
+    max-width: 650px;
+
+    margin: 0.8rem auto 0 auto;
+
+    font-size: 1rem;
+
+    line-height: 1.6;
+
+    color: #64748b !important;
+}
+
+
+/* =========================================================
+   WELCOME
+   ========================================================= */
+
+.welcome-card {
+    max-width: 680px;
+
+    margin: 0 auto 1.5rem auto;
+
+    padding: 1.8rem 2rem;
+
+    background: #ffffff;
+
+    border: 1px solid #d9ebe8;
+
+    border-radius: 20px;
+
+    box-shadow:
+        0 15px 40px rgba(15, 118, 110, 0.07);
+}
+
+
+.welcome-title {
+    font-size: 1.45rem;
+
+    font-weight: 750;
+
+    color: #0f766e !important;
+
+    margin-bottom: 0.5rem;
+}
+
+
+.welcome-description {
+    color: #64748b !important;
+
+    line-height: 1.65;
+}
+
+
+.user-welcome {
+    display: inline-block;
+
+    padding: 0.65rem 1rem;
+
+    margin-bottom: 1rem;
+
+    border-radius: 10px;
+
+    background: #e9f9f5;
+
+    border: 1px solid #c5ebe4;
+
+    color: #0f766e !important;
+
+    font-size: 0.9rem;
+
+    font-weight: 600;
+}
+
+
+/* =========================================================
+   INPUTS
+   ========================================================= */
+
+.stTextInput input,
+.stTextArea textarea {
+
+    background: #ffffff !important;
+
+    color: #172033 !important;
+
+    border: 1px solid #cbd5e1 !important;
+
+    border-radius: 11px !important;
+
+    min-height: 44px;
+
+    box-shadow: none !important;
+}
+
+
+.stTextInput input::placeholder,
+.stTextArea textarea::placeholder {
+
+    color: #94a3b8 !important;
+}
+
+
+.stTextInput input:focus,
+.stTextArea textarea:focus {
+
+    border-color: #0f9f98 !important;
+
+    box-shadow:
+        0 0 0 3px rgba(15, 159, 152, 0.10) !important;
+}
+
+
+.stTextInput label,
+.stTextArea label {
+
+    color: #334155 !important;
+
+    font-weight: 650 !important;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.stButton > button {
+
+    min-height: 44px;
+
+    border: none !important;
+
+    border-radius: 11px !important;
+
+    background:
+        linear-gradient(
+            135deg,
+            #0f9f98,
+            #14b8a6
+        ) !important;
+
+    color: white !important;
+
+    font-weight: 700 !important;
+
+    box-shadow:
+        0 6px 16px rgba(15, 159, 152, 0.18);
+
+    transition: 0.2s ease;
+}
+
+
+.stButton > button p,
+.stButton > button span {
+
+    color: white !important;
+}
+
+
+.stButton > button:hover {
+
+    transform: translateY(-1px);
+
+    background:
+        linear-gradient(
+            135deg,
+            #0d8f89,
+            #0fae9f
+        ) !important;
+
+    box-shadow:
+        0 9px 22px rgba(15, 159, 152, 0.25);
+}
+
+
+/* =========================================================
+   DOCUMENT CARD
+   ========================================================= */
+
+.document-card {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 0.75rem;
+
+    padding: 0.85rem 1rem;
+
+    margin: 0.8rem 0;
+
+    background: #ecfdf9;
+
+    border: 1px solid #b9eee6;
+
+    border-radius: 12px;
+
+    color: #115e59 !important;
+}
+
+
+.document-card strong {
+
+    color: #0f766e !important;
+}
+
+
+.document-icon {
+
+    font-size: 1.4rem;
+}
+
+
+/* =========================================================
+   UPLOAD MESSAGE
+   ========================================================= */
+
+.upload-message {
+
+    color: #0f766e !important;
+
+    font-weight: 600;
+
+    margin-bottom: 0.5rem;
+}
+
+
+/* =========================================================
+   CHAT
+   ========================================================= */
+
+[data-testid="stChatMessage"] {
+
+    background: #ffffff !important;
+
+    border: 1px solid #e2eceb;
+
+    border-radius: 16px;
+
+    padding: 0.9rem 1rem;
+
+    margin-bottom: 0.75rem;
+
+    box-shadow:
+        0 3px 12px rgba(15, 23, 42, 0.035);
+}
+
+
+[data-testid="stChatMessage"] p,
+[data-testid="stChatMessage"] li {
+
+    color: #334155 !important;
+
+    line-height: 1.65;
+}
+
+
+/* =========================================================
+   CHAT INPUT
+   ========================================================= */
+
+/* =========================================================
+   CHAT INPUT - BRIGHT TEAL BORDER
+   ========================================================= */
+
+[data-testid="stChatInput"] {
+    background: #ffffff !important;
+
+    border: 2px solid #14b8a6 !important;
+
+    border-radius: 16px !important;
+
+    box-shadow:
+        0 0 0 3px rgba(20, 184, 166, 0.10),
+        0 8px 25px rgba(15, 118, 110, 0.10) !important;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease !important;
+}
+
+
+/* Chat input when focused */
+
+[data-testid="stChatInput"]:focus-within {
+    border: 2px solid #0f9f98 !important;
+
+    box-shadow:
+        0 0 0 4px rgba(20, 184, 166, 0.16),
+        0 8px 28px rgba(15, 118, 110, 0.13) !important;
+}
+
+
+/* Actual text area */
+
+[data-testid="stChatInput"] textarea {
+    background: #ffffff !important;
+
+    color: #172033 !important;
+
+    border: none !important;
+
+    outline: none !important;
+
+    box-shadow: none !important;
+}
+
+
+/* Placeholder */
+
+[data-testid="stChatInput"] textarea::placeholder {
+    color: #94a3b8 !important;
+}
+
+
+/* Upload + send buttons */
+
+[data-testid="stChatInput"] button {
+    color: #0f9f98 !important;
+
+    background: transparent !important;
+
+    border: none !important;
+}
+
+
+/* Hover over input */
+
+[data-testid="stChatInput"]:hover {
+    border-color: #0f9f98 !important;
+}
+
+
+/* =========================================================
+   FILE UPLOADER
+   ========================================================= */
+
+[data-testid="stFileUploader"] {
+
+    background: #f8fffe;
+
+    border: 1px dashed #8ddbd2;
+
+    border-radius: 14px;
+
+    padding: 0.5rem;
+}
+
+
+[data-testid="stFileUploader"] * {
+
+    color: #334155 !important;
+}
+
+
+/* =========================================================
+   IMAGE
+   ========================================================= */
+
+[data-testid="stImage"] img {
+
+    border-radius: 14px;
+
+    border: 1px solid #e2e8f0;
+
+    box-shadow:
+        0 5px 18px rgba(15, 23, 42, 0.06);
+}
+
+
+/* =========================================================
+   SUMMARY
+   ========================================================= */
+
+.section-heading {
+
+    font-size: 1.35rem;
+
+    font-weight: 750;
+
+    color: #0f766e !important;
+
+    margin: 0.5rem 0 0.8rem 0;
+}
+
+
+.summary-header {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 0.5rem;
+
+    padding: 0.7rem 1rem;
+
+    margin-bottom: 0.8rem;
+
+    border-radius: 10px;
+
+    background: #ecfdf9;
+
+    border: 1px solid #c5ebe4;
+
+    color: #0f766e !important;
+
+    font-size: 0.85rem;
+
+    font-weight: 600;
+}
+
+
+.email-info {
+
+    padding: 0.75rem 1rem;
+
+    margin-bottom: 1rem;
+
+    background: #f8fafc;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 10px;
+
+    color: #64748b !important;
+}
+
+
+.email-info strong {
+
+    color: #0f766e !important;
+}
+
+
+/* =========================================================
+   ALERTS
+   ========================================================= */
+
+[data-testid="stAlert"] {
+
+    border-radius: 12px !important;
+}
+
+
+/* =========================================================
+   DIVIDER
+   ========================================================= */
+
+hr {
+
+    border: none !important;
+
+    border-top: 1px solid #dce7e5 !important;
+
+    margin: 1.5rem 0 !important;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+.app-footer {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 0.5rem;
+
+    margin-top: 3rem;
+
+    padding: 1.5rem 0;
+
+    color: #94a3b8 !important;
+
+    font-size: 0.78rem;
+}
+
+
+/* =========================================================
+   HIDE STREAMLIT ELEMENTS
+   ========================================================= */
+
+#MainMenu {
+
+    visibility: hidden;
+}
+
+
+footer {
+
+    visibility: hidden;
+}
+
+
+.stDeployButton {
+
+    display: none;
+}
+
+
+/* =========================================================
+   SCROLLBAR
+   ========================================================= */
+
+::-webkit-scrollbar {
+
+    width: 7px;
+}
+
+
+::-webkit-scrollbar-track {
+
+    background: #f1f5f9;
+}
+
+
+::-webkit-scrollbar-thumb {
+
+    background: #9bd9d3;
+
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+
+    background: #64c5bb;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    .main .block-container {
+
+        padding-left: 1rem !important;
+
+        padding-right: 1rem !important;
+
+        padding-top: 1.5rem !important;
+    }
+
+
+    .app-title {
+
+        font-size: 2rem;
+    }
+
+
+    .app-subtitle {
+
+        font-size: 0.9rem;
+    }
+
+
+    .welcome-card {
+
+        padding: 1.3rem;
+    }
+
+
+    .app-footer {
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+}
